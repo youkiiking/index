@@ -154,7 +154,7 @@ $(function () {
       return item.type === type;
     });
     if (baseUrl && keyword) {
-      window.open(baseUrl.url + keyword,'_self');
+      window.open(baseUrl.url + keyword);
     }
   });
 
